@@ -3,7 +3,7 @@ import java.util.Scanner;
 class Guessing_Game {
     public static void game2(){
         Scanner sc = new Scanner(System.in);
-        System.out.print("Do you want to play this game? --> ");
+        System.out.print("Do you want to play this game?[YES/NO] --> ");
         String choise = sc.nextLine();
         int score = Integer.MAX_VALUE;
         while(choise.equals("yes")){
@@ -40,7 +40,7 @@ class Guessing_Game {
             }
 
 
-            System.out.print("Do you want to play again? [Y/N] -->");
+            System.out.print("Do you want to play again? [YES/NO] -->");
 //            choise = sc.nextLine(); // Here nextLine method is not working why??
             choise = sc.next();
 //            System.out.print(choise);
